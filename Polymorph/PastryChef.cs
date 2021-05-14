@@ -15,8 +15,7 @@ namespace Polymorph
         public override string Name { get => base.Name; set => base.Name = value; }
         public override void Cooking()
         {
-            base.Cooking();
-            Console.WriteLine("nice dessert");
+            Console.WriteLine("{0} has cooked a nice dessert", Name);
         }
         public override void WorkInPosition()
         {            

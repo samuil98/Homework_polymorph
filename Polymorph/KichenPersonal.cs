@@ -14,7 +14,7 @@ namespace Polymorph
 
         public virtual void Cooking()
         {
-            Console.Write("{0} is cooking a ");
+            Console.Write("{0} is cooking a ", Name);
         }
         public abstract void SharpeningKnifes();
         

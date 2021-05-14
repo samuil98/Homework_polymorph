@@ -16,7 +16,7 @@ namespace Polymorph
         }
         public sealed override void SharpeningKnifes()
         {
-            Console.WriteLine("Chef has sharpened his knifes");
+            Console.WriteLine("Chef {0} has sharpened his/her knifes",Name);
         }
         public override void WorkInPosition()
         {            

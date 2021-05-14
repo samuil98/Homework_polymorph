@@ -16,7 +16,15 @@ namespace Polymorph
             {
                 person.WorkInPosition();
             }
-            
+
+            var kichenPersonal = new List<KichenPersonal>();
+            kichenPersonal.Add(new Chef("Maria"));
+            kichenPersonal.Add(new PastryChef("Geri"));
+            foreach (var person in kichenPersonal)
+            {
+                person.Cooking();
+                person.SharpeningKnifes();
+            }
         }
     }
 }
